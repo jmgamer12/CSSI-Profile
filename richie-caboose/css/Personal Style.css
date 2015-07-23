@@ -45,7 +45,7 @@ h1 {
 body {
   /*background: linear-gradient(green, red);
   background: linear-gradient(to right, red , blue);*/
-  background-image: url("Clouds1440x900.jpg");
+  background-image: url("/img/Clouds1440x900.jpg");
   color: white;
   font-family: 'Oswald', sans-serif;
   padding: 10px;
