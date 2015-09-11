@@ -10,6 +10,10 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="/css/Personal Style.css">
+        <link rel="stylesheet" href="css/Personal Style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/Personal Style.css" type="text/css">
+
+
     </head>
     <body.onload = 'hideText()'>
 
@@ -17,11 +21,14 @@ and open the template in the editor.
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 
         <div><h1>Jeremy "Caboose" Green</h1></div>
-
-          <div class="guide"><a href="#" id="example-show" class="showLink" onclick="showHide('Short Bio');return false;">Education</a></div>
-          <div class="guide"><a href="#" id="example-show" class="showLink" onclick="showHide2('Contact');return false;">My Interests</a></div>
-          <div class="guide"><a href="#" id="example-show" class="showLink" onclick="showHide4('social_Mediax');return false;">Contact Me!</a></div>
-
+        
+        <table class="table">
+            <tr>
+                <td><a href="#" id="example-show" class="showLink" onclick="showHide('Short Bio');return false;">Education</a></td>
+                <td><a href="#" id="example-show" class="showLink" onclick="showHide2('Contact');return false;">My Interests</a></td>
+                <td><a href="#" id="example-show" class="showLink" onclick="showHide4('social_Mediax');return false;">Contact Me!</a></td>
+            </tr>
+        </table>
               <p id="short_Bio">Born: March 24, 1997
                 <br>Education: Richwoods High School <br>
                 <a href="http://illinois.edu/">Freshman at University of Illinois Champaign-Urbana</a>

@@ -10,7 +10,7 @@ and open the template in the editor.
     Created on : Jul 14, 2015, 10:30:34 AM
     Author     : gevent
 */
-.guide {
+/* .guide {
   text-align: center;
   display: inline;
   margin: auto;
@@ -21,7 +21,7 @@ and open the template in the editor.
   position: relative;
   align-content: center;
 
-}
+} */
 a {
   text-decoration: none;
   color: white;
@@ -90,4 +90,14 @@ button {
   text-align: center;
   width: 100%;
   padding: 50px;
+}
+
+.showLink {
+
+}
+
+.table {
+    width: 100%;
+    clear: both;
+    text-align: center;
 }
