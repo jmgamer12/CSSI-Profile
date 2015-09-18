@@ -85,13 +85,6 @@ button {
 .social_Media {
   display: none;
 }
-.eating {
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-  padding: 50px;
-}
-
 .showLink {
 
 }
@@ -100,4 +93,12 @@ button {
     width: 100%;
     clear: both;
     text-align: center;
+}
+
+.welcome {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 18px;
 }
